@@ -4,15 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a8ea1058-b2e6-483d-8411-59999bb350c4" name="Changes" comment="">
+    <list default="true" id="4ed66cbe-01ef-403d-84e0-5fa1d3375733" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/../../class2/CountingCharacters/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../class2/CountingCharacters/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Menu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/MenuItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/MenuItem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../livecode/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../livecode/src/main/java/org/example/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../livecode/src/main/java/org/example/Song.java" beforeDir="false" afterPath="$PROJECT_DIR$/../livecode/src/main/java/org/example/Song.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Song.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Song.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +19,21 @@
       <ProjectState />
     </projectState>
   </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -34,10 +44,10 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
-  <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 4
-}</component>
-  <component name="ProjectId" id="2mlU4I9wVADvmkOB955u80qIcgv" />
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 5
+}]]></component>
+  <component name="ProjectId" id="2mwnHkzbdRsf1bkBPB7eXgw8Bon" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
@@ -47,7 +57,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "Gradle.RestaurantMenu [:org.example.Main.main()].executor": "Run",
+    "Gradle.livecode [:org.example.Main.main()].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true"
@@ -61,7 +71,7 @@
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.Main" />
-      <module name="RestaurantMenu.main" />
+      <module name="livecode.main" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.example.*" />
@@ -81,11 +91,11 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="a8ea1058-b2e6-483d-8411-59999bb350c4" name="Changes" comment="" />
-      <created>1727650463161</created>
+      <changelist id="4ed66cbe-01ef-403d-84e0-5fa1d3375733" name="Changes" comment="" />
+      <created>1727996422610</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1727650463161</updated>
+      <updated>1727996422610</updated>
     </task>
     <servers />
   </component>

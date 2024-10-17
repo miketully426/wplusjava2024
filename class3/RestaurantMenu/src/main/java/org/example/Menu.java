@@ -30,4 +30,21 @@ public class Menu
     public void addMenuItem(MenuItem menuItem){
         this.menuItems.add(menuItem);
     }
+
+    public void removeMenuItem(MenuItem menuItem) {
+        this.menuItems.remove(menuItem);
+    }
+
+    @Override
+    public String toString(){
+        String output = "Today's Menu \n";
+        // Loop through each menu item
+        for(MenuItem item: this.menuItems){
+            // Use the toString method on the MenuItem to add the item to the output
+            output += item + "\n";
+        }
+        // Add the last updated
+        output += "Last updated: " + this.lastUpdated;
+        return output;
+    }
 }
