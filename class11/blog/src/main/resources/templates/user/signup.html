@@ -8,11 +8,13 @@
   <form method="post">
     <label>
       Username:
-      <input type="text" name="username" />
+      <input type="text" th:field="${user.username}" />
+      <p class="error" th:errors="${user.username}"></p>
     </label>
     <label>
       Email:
-      <input type="email" name="email" />
+      <input type="email" th:field="${user.email}" />
+      <p class="error" th:errors="${user.email}"></p>
     </label>
     <button type="submit">Submit</button>
   </form>

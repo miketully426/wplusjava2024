@@ -8,9 +8,15 @@
 <p th:replace="fragments::navbar"></p>
 
   <form method="post">
-    <input type="text" name="title" />
-    <input type="text" name="content" />
-    <button type="submit">Submit</button>
+    <input type="text" th:field="${blog.title}" />
+      <p th:errors="${blog.title}"></p>
+      <br/>
+      <textarea th:field="${blog.content}" rows="10" cols="50" ></textarea>
+      <p th:errors="${blog.content}"></p>
+      <select th:field="${blog.emotion}">
+          <option th:each="emotion: ${emotions}" th:value="${emotion}" th:text="${emotion}"></option>
+      </select>
+      <button type="submit">Submit</button>
   </form>
 </body>
 </html>
