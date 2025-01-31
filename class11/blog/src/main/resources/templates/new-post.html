@@ -16,6 +16,9 @@
       <select th:field="${blog.emotion}">
           <option th:each="emotion: ${emotions}" th:value="${emotion}" th:text="${emotion}"></option>
       </select>
+      <select th:field="${blog.user}">
+          <option th:each="user: ${users}" th:value="${user.id}" th:text="${user.username}"></option>
+      </select>
       <button type="submit">Submit</button>
   </form>
 </body>

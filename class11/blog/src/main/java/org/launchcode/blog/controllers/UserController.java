@@ -2,6 +2,8 @@ package org.launchcode.blog.controllers;
 
 import jakarta.validation.Valid;
 import org.launchcode.blog.models.User;
+import org.launchcode.blog.repositories.UserRepository;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.validation.Errors;
@@ -17,7 +19,9 @@ import java.util.List;
 @RequestMapping("/user")
 public class UserController {
 
-    private List<User> users = new ArrayList<>();
+//    private List<User> users = new ArrayList<>();
+    @Autowired
+    UserRepository userRepository;
 
     @GetMapping
     public String displayUserForm(Model model){
@@ -31,8 +35,10 @@ public class UserController {
             model.addAttribute("user", user);
             return "user/signup";
         }
-        users.add(user);
-        model.addAttribute("users", users);
+//        users.add(user);
+        userRepository.save(user);
+
+        model.addAttribute("users", userRepository.findAll());
         return "user/list";
     }
 }
